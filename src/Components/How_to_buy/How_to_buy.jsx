@@ -28,7 +28,7 @@ export default function How_to_buy() {
                     </div>
                     <div className='d-flex   align-items-center gap-2 pro_htb'>
                         <h1>3</h1>
-                        <h6>SETTING  SLIPPAGE TOLERANCE (25%)</h6>
+                        <h6>SETTING  SLIPPAGE TOLERANCE</h6>
                     </div>
                     <div className='d-flex   align-items-center gap-2 pro_htb'>
                         <h1>4</h1>
