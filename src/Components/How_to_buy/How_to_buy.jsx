@@ -62,7 +62,7 @@ export default function How_to_buy() {
                         {/* <button>Copy to clipboard with button</button> */}
                       </div>
 
-              <a className='text-decoration-none' href="https://bscscan.com/address/0x47eecd2164b216111ce5a2045e6cf11abe10c667#code" target='_blank'>  <button className='but_GUcci_btn mt-4'>BUY GUCCI</button></a>
+              <a className='text-decoration-none' href="https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667" target='_blank'>  <button className='but_GUcci_btn mt-4'>BUY GUCCI</button></a>
 
 
                 </div>

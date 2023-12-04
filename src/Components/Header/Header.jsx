@@ -53,7 +53,7 @@ export default function Header() {
             </Nav>
             <Nav className="ma-auto">
              
-           <a href="https://bscscan.com/address/0x47eecd2164b216111ce5a2045e6cf11abe10c667#code" className="text-decoration-none " target="_blank">     <button className="connect_wallet mt-3 mt-md-0"> Buy Gucci</button></a>
+           <a href="https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667" className="text-decoration-none " target="_blank">     <button className="connect_wallet mt-3 mt-md-0"> Buy Gucci</button></a>
              
             </Nav>
           </Navbar.Collapse>
