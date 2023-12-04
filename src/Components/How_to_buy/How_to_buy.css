@@ -1,0 +1,41 @@
+.main_htb{
+    padding: 40px 10px;
+}
+
+.pro_htb h1 {
+    color: white ;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.pro_htb h6 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.butn_htb h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.pro_htb {
+    padding:15px 0px  ;
+    border-bottom: 2px solid #1e2030;
+}
+
+.butn_htb {
+background-color: #212B35;;
+padding:40px 0px 40px 10px ;
+border-radius: 10px;
+}
+
+
+@media only screen and (max-width:990px){
+    .main_heading{
+        font-size: 35px;
+    }
+}

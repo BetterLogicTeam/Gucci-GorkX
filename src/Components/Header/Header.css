@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main_nav_bar_bg{
+    background-color: #151C24 !important;
+}
+body{
+    background-color: #151C24 ;
+
+}
+
+.main_logo {
+    width: 120px;
+}
+.main_logo img {
+    width: 100%;
+}
+
+
+.main_header_links {
+    color: white !important;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    gap: 3px;
+    padding:1px 10px ;
+    margin: 0px 15px;
+}
+
+.text_part{
+    position: relative;
+    top: 3px;
+}
+
+
+
+
+.connect_wallet {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #3BB3FB;
+    padding: 5px 25px ;
+    color: white ;
+    font-family: 'Roboto', sans-serif;
+    
+
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px #3BB3FB;
+}

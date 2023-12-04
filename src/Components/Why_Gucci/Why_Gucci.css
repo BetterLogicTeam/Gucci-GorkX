@@ -1,0 +1,42 @@
+.why_gucci_about h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.why_gucci_about p {
+    color: white ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    
+}
+
+.icon_y {
+    color: #E77A28;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main_why_gucci {
+    padding: 40px 10px ;
+}
+.y_gucci_box p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.y_gucci_box h5 {
+    font-size: 26px ;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+/* margin-top: 1rem; */
+text-transform: uppercase;
+
+}

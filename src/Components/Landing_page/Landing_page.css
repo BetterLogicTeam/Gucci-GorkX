@@ -1,0 +1,51 @@
+/* .connect_main_dev{
+    background-color: #212B35;
+    border-radius: 10px ;
+    padding: 10px 15px ;
+  
+} */
+
+
+.main_heading{
+    color: white;
+    font-size: 48px ;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.gucci_left p {
+color: white;
+font-family: 'Roboto', sans-serif;
+margin-top: 1rem ;
+
+}
+
+.but_GUcci_btn {
+    padding: 10px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    white-space: nowrap;
+    background-color: #3BB3FB;
+}
+
+.font_f{
+font-family: 'Roboto', sans-serif;
+
+}
+.main_landing_page{
+    padding: 40px 10px ;
+}
+
+
+
+
+.my_intro{
+    width: 100% !important;
+    height: 75%;
+    border-radius:25px ;
+}

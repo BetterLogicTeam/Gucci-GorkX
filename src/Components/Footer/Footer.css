@@ -1,0 +1,52 @@
+.main_footer {
+    padding: 30px 10px 10px 10px;
+}
+
+.soical_icons {
+    font-size: 26px ;
+    color: #E77A28;
+    cursor: pointer;
+}
+
+.send_btn
+{
+    padding: 15px 30px ;
+    font-weight: 700;
+    /* font-size: 22px; */
+    background-color: #E77A28;
+    font-family: 'Roboto', sans-serif;
+
+    border: none;
+    outline: none;
+    color: white ;
+}
+
+.footer_logo {
+    position: relative;
+    left: -45px;
+}
+
+.footer_links h5 {
+    color: white ;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+}
+
+.footer_links p {
+    color: white ;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.footer_email {
+    outline: none;
+    border: none;
+    background-color: #212B35;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
