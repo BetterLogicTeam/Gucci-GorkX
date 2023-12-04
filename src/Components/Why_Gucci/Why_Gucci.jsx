@@ -39,7 +39,7 @@ export default function Why_Gucci() {
               {/* <h5>5% Fee</h5> */}
               <h5> Stealth Launch Opening MC 2000 Only</h5>
               <p>
-                It will be a stealth launch with an opening market cap of $3000.
+                It will be a stealth launch with an opening market cap of $2000.
                 This gives a chance for everyone to join and hopefully make some
                 money
               </p>
