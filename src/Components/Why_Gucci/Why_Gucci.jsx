@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Why_Gucci.css";
 import { FaHandHoldingUsd, FaMapMarked } from "react-icons/fa";
 import { GiDevilMask } from "react-icons/gi";
 import logo from "../Assests/new_logo.png";
+import { AppContext } from "../../helper/context";
+import ggxWhite from '../Assests/ggxWhite.png'
 
 export default function Why_Gucci() {
+  const {chainSwitch} = useContext(AppContext);
   return (
     <div className="main_why_gucci" id="about">
       <div className="container">
@@ -25,11 +28,11 @@ export default function Why_Gucci() {
             <div className="y_gucci_box text-start">
               <FaHandHoldingUsd className="icon_y" />
               {/* <h5>10% Fee</h5> */}
-              <h5> 3% buy tax and 8% sell tax</h5>
+              <h5> {chainSwitch ? "5%":"5%"} buy tax and  {chainSwitch ? "5%":"5%"} sell tax</h5>
               <p>
-                There are 3% buy tax on the $GUCCIX (1% to liquidity and 2% to
-                marketing. 8% will be collected as Sell tax and 2% to Liquidity
-                and 6% for future marketing and any developments.
+                There are {chainSwitch ? "5%":"5%"} buy tax on the $GUCCIX ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to
+                marketing. {chainSwitch ? "5%":"5%"} will be collected as Sell tax and {chainSwitch ? "2%":"2%"} to Liquidity
+                and  {chainSwitch ? "3%":"3%"}  for future marketing and any developments.
               </p>
             </div>
           </div>
@@ -37,9 +40,9 @@ export default function Why_Gucci() {
             <div className="y_gucci_box text-start">
               <GiDevilMask className="icon_y" />
               {/* <h5>5% Fee</h5> */}
-              <h5> Stealth Launch Opening MC 2000 Only</h5>
+              <h5> Stealth Launch Opening MC  {!chainSwitch ? "$2000":"$10000"} Only</h5>
               <p>
-                It will be a stealth launch with an opening market cap of $2000.
+                It will be a stealth launch with an opening market cap of { !chainSwitch ? "$2000":"$10000"}.
                 This gives a chance for everyone to join and hopefully make some
                 money
               </p>
@@ -62,7 +65,11 @@ export default function Why_Gucci() {
 
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <img src={logo} className="w-100" alt="" />
+            {
+              chainSwitch ? <img src={ggxWhite} className="w-100" alt="" /> :<img src={logo} className="w-100" alt="" />
+
+            }
+
           </div>
         </div>
       </div>

@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Footer.css";
 import logo from "../Assests/new_logo.png";
 import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ggxWhite from '../Assests/ggxWhite.png'
+import { AppContext } from "../../helper/context";
 
 export default function Footer() {
+  const {chainSwitch} = useContext(AppContext);
   return (
     <div className="main_footer">
       <div className="container">
         <div className="row ">
           <div className="col-md-4">
             <div className="text-start">
-              <img src={logo} className="w-50 footer_logo" alt="" />
+            {
+                chainSwitch ?   <img src={ggxWhite} className="w-50 footer_logo" alt="" />: <img src={logo} className="w-50 footer_logo" alt="" />
+              }
+              {/* <img src={logo} className="w-50 footer_logo" alt="" /> */}
               <div className="d-flex gap-3">
              <a href="https://t.me/Gucci_GrokX" target="_blank">   <FaTelegramPlane className="soical_icons" /> </a>
-             <a href="https://x.com/GucciGrokX" target="_blank">   <FaTwitter className="soical_icons" /></a> 
+             <a href="https://x.com/GucciGrokX" target="_blank">   <FaTwitter className="soical_icons" /></a>
              {/* <a href="guccigrokx@gmail.com" target="_blank"> <MdEmail  className="soical_icons" /></a>     */}
               </div>
             </div>
