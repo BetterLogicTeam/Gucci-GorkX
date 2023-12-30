@@ -12,7 +12,7 @@ export default function Why_Gucci() {
     <div className="main_why_gucci" id="about">
       <div className="container">
         <div className="why_gucci_about">
-          <h1 className="font_f"> Why Gucci</h1>
+          <h1 className="font_f"> Why {!chainSwitch ? "$GUCCIX":"GucciX2"}</h1>
           <p>
             A community-driven Meme Token for entertainment only. The community
             will be involved in every decision
@@ -30,7 +30,7 @@ export default function Why_Gucci() {
               {/* <h5>10% Fee</h5> */}
               <h5> {chainSwitch ? "5%":"5%"} buy tax and  {chainSwitch ? "5%":"5%"} sell tax</h5>
               <p>
-                There are {chainSwitch ? "5%":"5%"} buy tax on the $GUCCIX ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to
+                There are {chainSwitch ? "5%":"5%"} buy tax on the {!chainSwitch ? "$GUCCIX":"GucciX2"} ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to
                 marketing. {chainSwitch ? "5%":"5%"} will be collected as Sell tax and {chainSwitch ? "2%":"2%"} to Liquidity
                 and  {chainSwitch ? "3%":"3%"}  for future marketing and any developments.
               </p>

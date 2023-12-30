@@ -24,9 +24,9 @@ export default function Landing_page() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="gucci_left">
-              <h1 className="main_heading">Gucci GorkX ($GUCCIX)</h1>
+              <h1 className="main_heading">{!chainSwitch ? "Gucci GorkX ($GUCCIX)":"Gucci Groke X v-2 (GucciX2)"}</h1>
               <p>
-                Gucci Grok X <strong>(“$GUCCIX”)</strong> is a digital token
+              {!chainSwitch ? "Gucci GorkX ($GUCCIX)":"Gucci Groke X v-2 (GucciX2)"} is a digital token
                 compatible with the evm compatible token standard. MEME has no
                 functions, no utility, and no intrinsic value, no promise or
                 expectation of any financial return, profit, interest, or
@@ -36,7 +36,7 @@ export default function Landing_page() {
               <a
                 href={
                   chainSwitch
-                    ? "https://heyzine.com/flip-book/48a5b45bd5.html"
+                    ? "https://heyzine.com/flip-book/43618192c3.html"
                     : "https://heyzine.com/flip-book/0b1074c8aa.html"
                 }
                 className="text-decoration-none"

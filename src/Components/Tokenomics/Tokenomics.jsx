@@ -23,13 +23,13 @@ export default function Tokenomics() {
 
                 </div>
                 <div className='about_token mt-4'>
-                <h6>Reserve Locked for future {!chainSwitch ? "10%":"25%"}:</h6>
-                <h4>{chainSwitch ? "25,000,000,000":"10,000,000,000"} </h4>
+                <h6>Reserve Locked for future {!chainSwitch ? "10%":"40%"}:</h6>
+                <h4>{chainSwitch ? "40,000,000,000":"10,000,000,000"} </h4>
 
                 </div>
                  <div className='about_token mt-4'>
-                <h6>BURNT 65%:</h6>
-                <h4>65,000,000,000</h4>
+                <h6>BURNT {chainSwitch ? "50%":"65%"}:</h6>
+                <h4>{chainSwitch ? "50,000,000,000":"65,000,000,000"}</h4>
 
                 </div>
                 <div className='about_token mt-4'>

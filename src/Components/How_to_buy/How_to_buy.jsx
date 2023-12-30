@@ -78,7 +78,7 @@ export default function How_to_buy() {
                 target="_blank"
               >
                 {" "}
-                <button className="but_GUcci_btn mt-4">BUY GUCCI</button>
+                <button className="but_GUcci_btn mt-4">BUY {!chainSwitch ? "$GUCCIX":"GUCCIX2"}</button>
               </a>
             </div>
           </div>
