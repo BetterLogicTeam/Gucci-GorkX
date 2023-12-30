@@ -64,7 +64,7 @@ export default function Header() {
               </Nav.Link>
             </Nav>
             <Nav className="ma-auto">
-           <a href= {chainSwitch ? "https://t.me/gucci_grokx":"https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667"} className="text-decoration-none " target="_blank">     <button className="connect_wallet mt-3 mt-md-0"> {!chainSwitch ? "Buy $GUCCIX":"Buy GUCCIX2"}</button></a>
+           <a href= {chainSwitch ? "https://t.me/guccix_v2":"https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667"} className="text-decoration-none " target="_blank">     <button className="connect_wallet mt-3 mt-md-0"> {!chainSwitch ? "Buy $GUCCIX":"Buy GUCCIX2"}</button></a>
             </Nav>
           </Navbar.Collapse>
         </Container>

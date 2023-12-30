@@ -12,7 +12,7 @@ import { AppContext } from './helper/context';
 import { useState } from 'react';
 
 function App() {
-  const [chainSwitch, setChainSwitch] = useState(false)
+  const [chainSwitch, setChainSwitch] = useState(true)
   return (
     <div className="App">
       <AppContext.Provider value={{ chainSwitch, setChainSwitch }} >

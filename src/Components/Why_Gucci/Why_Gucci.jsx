@@ -30,9 +30,9 @@ export default function Why_Gucci() {
               {/* <h5>10% Fee</h5> */}
               <h5> {chainSwitch ? "5%":"5%"} buy tax and  {chainSwitch ? "5%":"5%"} sell tax</h5>
               <p>
-                There are {chainSwitch ? "5%":"5%"} buy tax on the {!chainSwitch ? "$GUCCIX":"GucciX2"} ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to
-                marketing. {chainSwitch ? "5%":"5%"} will be collected as Sell tax and {chainSwitch ? "2%":"2%"} to Liquidity
-                and  {chainSwitch ? "3%":"3%"}  for future marketing and any developments.
+                There are {chainSwitch ? "5%":"5%"} buy tax on the {!chainSwitch ? "$GUCCIX":"GucciX2"} ({chainSwitch ? "3%":"2%"} to liquidity and {chainSwitch ? "2%":"3%"} to
+                marketing. {chainSwitch ? "5%":"5%"} will be collected as Sell tax and {chainSwitch ? "3%":"2%"} to Liquidity
+                and  {chainSwitch ? "2%":"3%"}  for future marketing and any developments.
               </p>
             </div>
           </div>

@@ -45,7 +45,7 @@ export default function How_to_buy() {
               <div className="d-flex gap-2">
                 <p className="text-white mb-0    text-truncate">
                   {chainSwitch
-                    ? "Will be announced soon"
+                    ? "Ca will be announced at launch in telegram only"
                     : "0x47eecd2164b216111ce5a2045e6cf11abe10c667"}{" "}
                 </p>
                 <CopyToClipboard
@@ -72,7 +72,7 @@ export default function How_to_buy() {
                 className="text-decoration-none"
                 href={
                   chainSwitch
-                    ? "https://t.me/gucci_grokx"
+                    ? "https://t.me/guccix_v2"
                     : "https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667"
                 }
                 target="_blank"

@@ -23,19 +23,25 @@ export default function Tokenomics() {
 
                 </div>
                 <div className='about_token mt-4'>
-                <h6>Reserve Locked for future {!chainSwitch ? "10%":"40%"}:</h6>
-                <h4>{chainSwitch ? "40,000,000,000":"10,000,000,000"} </h4>
+                <h6>Reserve Locked for future {!chainSwitch ? "10%":"10%"}:</h6>
+                <h4>{chainSwitch ? "10,000,000,000":"10,000,000,000"} </h4>
 
                 </div>
                  <div className='about_token mt-4'>
-                <h6>BURNT {chainSwitch ? "50%":"65%"}:</h6>
-                <h4>{chainSwitch ? "50,000,000,000":"65,000,000,000"}</h4>
+                <h6>BURNT {chainSwitch ? "80%":"65%"}:</h6>
+                <h4>{chainSwitch ? "80,000,000,000":"65,000,000,000"}</h4>
 
                 </div>
                 <div className='about_token mt-4'>
                 <h1 className='font_f text-white'>Tax</h1>
-                <p className='font_f text-white'>Buy:  {chainSwitch ? "5%":"5%"} ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to marketing)</p>
-                <p className='font_f text-white'>Sell: {chainSwitch ? "5%":"5%"} ({chainSwitch ? "2%":"2%"} to liquidity and {chainSwitch ? "3%":"3%"} to marketing)</p>
+                <p className='font_f text-white'>Buy:  {chainSwitch ? "5%":"5%"} ({chainSwitch ? "3%":"2%"} to liquidity and {chainSwitch ? "2%":"3%"} to marketing)</p>
+                <p className='font_f text-white'>Sell: {chainSwitch ? "5%":"5%"} ({chainSwitch ? "3%":"2%"} to liquidity and {chainSwitch ? "2%":"3%"} to marketing)</p>
+
+                <h1 className='font_f text-white'>{chainSwitch ? "Anti Jet Anti Sniper system in place for 24 hours":""}</h1>
+                <p className='font_f text-white'>{chainSwitch ? "Buy 10% = 7% to liquidity and 3% to marketing":""}</p>
+                <p className='font_f text-white'>{chainSwitch ? "Sell 20% = 17% to liquidity and 3% to marketing":""}</p>
+
+                
 
                 </div>
             </div>

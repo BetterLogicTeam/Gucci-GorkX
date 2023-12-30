@@ -9,8 +9,10 @@ export default function RoadMap() {
         <div className="row justify-content-around mt-5">
           <div className="col-md-3">
             <div className="stages">
-              <h1>Stage 1</h1>
+           < h1>No road map no promises just a meme</h1>
+              {/* <h1>Stage 1</h1>
               <p className="text-white font_f">
+              {chainSwitch ? "https://t.me/gucci_grokx":"https://pancakeswap.finance/swap?outputCurrency=0x47eecd2164B216111cE5A2045e6CF11Abe10C667"}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium voluptatibus velit sed. Totam quis autem amet
                 aliquam quisquam provident iste nemo veniam saepe odit natus
@@ -37,7 +39,7 @@ export default function RoadMap() {
                 Accusantium voluptatibus velit sed. Totam quis autem amet
                 aliquam quisquam provident iste nemo veniam saepe odit natus
                 quibusdam quam, cupiditate dolorum incidunt?
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
