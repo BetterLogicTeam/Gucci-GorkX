@@ -37,7 +37,7 @@ export default function Tokenomics() {
                 <p className='font_f text-white'>Buy:  {chainSwitch ? "5%":"5%"} ({chainSwitch ? "3%":"2%"} to liquidity and {chainSwitch ? "2%":"3%"} to marketing)</p>
                 <p className='font_f text-white'>Sell: {chainSwitch ? "5%":"5%"} ({chainSwitch ? "3%":"2%"} to liquidity and {chainSwitch ? "2%":"3%"} to marketing)</p>
 
-                <h1 className='font_f text-white'>{chainSwitch ? "Anti Jet Anti Sniper system in place for 24 hours":""}</h1>
+                <h1 className='font_f text-white'>{chainSwitch ? "Anti Jeet Anti Sniper system in place for 24 hours":""}</h1>
                 <p className='font_f text-white'>{chainSwitch ? "Buy 10% = 7% to liquidity and 3% to marketing":""}</p>
                 <p className='font_f text-white'>{chainSwitch ? "Sell 20% = 17% to liquidity and 3% to marketing":""}</p>
 
